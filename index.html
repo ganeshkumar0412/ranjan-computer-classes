@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranjan Computer Classes</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f7fb;color:#222}
+header{background:#0b57d0;color:#fff;padding:40px 20px;text-align:center}
+.container{max-width:1100px;margin:auto;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.btn{display:inline-block;background:#0b57d0;color:#fff;text-decoration:none;padding:12px 18px;border-radius:6px;margin:6px}
+.btn.green{background:#25D366}
+form input,form select,form textarea{width:100%;padding:10px;margin:8px 0}
+footer{background:#111;color:#fff;text-align:center;padding:20px;margin-top:30px}
+.sticky{position:fixed;bottom:15px;right:15px;display:flex;flex-direction:column;gap:8px}
+</style>
+</head>
+<body>
+<header>
+<h1>Ranjan Computer Classes</h1>
+<p>Learn In-Demand Skills & Build Your Career</p>
+<a class="btn" href="#form">Apply Now</a>
+<a class="btn green" href="https://wa.me/919876543210">WhatsApp</a>
+<a class="btn" href="tel:+919876543210">Call Now</a>
+<a class="btn" href="brochure.pdf">Download Brochure</a>
+</header>
+
+<div class="container">
+<h2>Our Courses</h2>
+<div class="grid">
+<div class="card"><h3>Basic Computer</h3><p>MS Office, Internet, Windows</p></div>
+<div class="card"><h3>Advanced Excel</h3><p>Dashboards, Pivot Tables</p></div>
+<div class="card"><h3>Tally Prime + GST</h3><p>Accounting & GST</p></div>
+<div class="card"><h3>Digital Marketing</h3><p>SEO, Google Ads, Meta Ads</p></div>
+<div class="card"><h3>Graphic Design</h3><p>Photoshop, Canva</p></div>
+<div class="card"><h3>Web Development</h3><p>HTML, CSS, JavaScript</p></div>
+</div>
+
+<h2 id="form">Admission Form</h2>
+<form onsubmit="alert('Demo form submitted!');return false;">
+<input placeholder="Full Name" required>
+<input type="email" placeholder="Email">
+<input placeholder="Phone Number" required>
+<select>
+<option>Basic Computer</option>
+<option>Advanced Excel</option>
+<option>Tally Prime</option>
+<option>Digital Marketing</option>
+<option>Graphic Design</option>
+<option>Web Development</option>
+</select>
+<textarea placeholder="Message"></textarea>
+<button class="btn" type="submit">Enroll Now</button>
+</form>
+</div>
+
+<div class="sticky">
+<a class="btn green" href="https://wa.me/919876543210">WhatsApp</a>
+<a class="btn" href="tel:+919876543210">Call</a>
+</div>
+
+<footer>© 2026 Ranjan Computer Classes</footer>
+</body>
+</html>
